@@ -26,17 +26,17 @@ footer {
 }
 
 main {
-  float:left;
+  display: flex;
   border: 0;
 }
 @media (max-width: 1280px) {
   main {
-    display: block;
+    display: inline;
   }
 }
 
 .card {
-  width: 390px;
+  width: 400px;
   line-height: 0;
 }
 @media (max-width: 1280px) {
@@ -45,7 +45,7 @@ main {
   }
 }
 .card img {
-  display: block;
+  display: flex;
   width: 400px;
 }
 @media (max-width: 1280px) {
